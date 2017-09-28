@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!ELEMENT stats (mostCommonIp, platforms, ips) >
+
+<!ELEMENT mostCommonIp (#PCDATA) >
+
+<!ELEMENT platforms (desktop, mobile) >
+
+<!ELEMENT desktop (os+) >
+
+<!ELEMENT mobile (os+) >
+
+<!ELEMENT os EMPTY >
+<!ATTLIST os    
+   count	CDATA	#REQUIRED  
+   name	(Windows|Linux|MacOS|Android|iOS)	#REQUIRED 
+> 
+
+<!ELEMENT ips (ip, ip, ip, ip, ip) >
+
+<!ELEMENT ip EMPTY >
+<!ATTLIST ip    
+   addr	CDATA	#REQUIRED  
+   frequency	CDATA	#REQUIRED
+>

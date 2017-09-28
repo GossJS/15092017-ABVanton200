@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE stats PUBLIC "Anton Babakhin" "http://kodaktor.ru/j/dtd_7f2d9">
+<stats>
+    <mostCommonIp>
+        077.234.203.101
+    </mostCommonIp>
+    <platforms>
+        <desktop>
+            <os name="Windows" count="65" />
+            <os name="Linux" count="12" />
+            <os name="MacOS" count="8" />
+        </desktop>
+        <mobile>
+            <os name="Android" count="6" />
+            <os name="iOS" count="5" />
+        </mobile>
+    </platforms>
+    <ips>
+        <ip addr="077.234.203.101" frequency="8" />
+        <ip addr="178.016.148.001" frequency="4" />
+        <ip addr="078.037.140.237" frequency="2" />
+        <ip addr="005.018.232.032" frequency="1" />
+        <ip addr="149.154.167.164" frequency="0.4" />        
+    </ips>
+</stats>
