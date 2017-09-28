@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Users",
+    "description": "User`s private information: logins and passwords",
+    "type": "object",
+    "required": ["users"],
+    "properties": {
+        "users": {
+            "description": "Container for users",
+            "type": "array",
+            "items": {
+                "title": "User",
+                "type": "object",
+                "properties": {
+                    "login": {
+                        "description": "Login of the user",
+                        "type": "string"
+                    },
+                    "password": {
+                        "description": "Password of the user",
+                        "type": "string"
+                    }
+                },
+                "required": ["login", "password"]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+
+    }
+}
